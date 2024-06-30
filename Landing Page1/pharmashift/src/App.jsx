@@ -13,7 +13,7 @@ function App() {
     <>
     {/* first section  */}
      <div className='bg-black text-white h-screen w-full'>
-      {/* <Logo/> */}
+      <Logo/>
       <Hamburger/>
       <div className="relative top-[45%]">
       <White/>
