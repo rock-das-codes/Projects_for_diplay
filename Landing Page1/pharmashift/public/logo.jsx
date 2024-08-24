@@ -1,6 +1,6 @@
 export default function Logo(){
     return (
-        <img src="https://pngtree.com/freepng/creative-company_1420804.html"/>
+        <img className="rounded-full md:absolute md:top-[12%] md:left-[7%]" height="50px" width="50px" src="BioSpectra.png"/>
     )
 
 }
