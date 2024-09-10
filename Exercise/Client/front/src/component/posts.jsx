@@ -5,7 +5,7 @@ function Posts() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axios.get('https://projectsfordiplay-j1a2--5000--6352fbed.local-corp.webcontainer.io/posts')
+    axios.get('http://localhost:5000/posts')
       .then(response => {
         setPosts(response.data);
         console.log(posts)
